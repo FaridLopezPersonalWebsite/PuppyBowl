@@ -5,9 +5,15 @@ h2,
 p,
 ul,
 li {
+    
     margin: 0;
     padding: 0;
     background-color: cadetblue;
+}
+
+.new-player-form{
+  display: flexbox;
+  float: center;
 }
 
 body {
@@ -17,7 +23,7 @@ body {
 }
 
 .container {
-   
+  
     max-width: 300px;
     margin: 20px auto;
 }
@@ -68,6 +74,7 @@ body {
 }
 
 .player-form {
+  
     background-color: beige;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -76,12 +83,14 @@ body {
 }
 
 .player-form label {
+  
     background-color: beige;
     display: block;
     margin-bottom: 5px;
 }
 
 .player-form input {
+  
     background-color: beige;
     width: 100%;
     padding: 8px;
@@ -92,6 +101,7 @@ body {
 }
 
 .player-form button {
+  
    background-color: beige;
     color: #fff;
     border: none;

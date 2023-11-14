@@ -137,7 +137,7 @@ const renderNewPlayerForm = () => {
     try {
         const newPlayerFormContainer = document.getElementById("new-player-form");
         newPlayerFormContainer.innerHTML = `
-            <h2>Add a New Player</h2><form id="player-form">
+            <h2 align="center">Add a New Player</h2><form align="center" id="player-form">
                 <div>
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" required>
