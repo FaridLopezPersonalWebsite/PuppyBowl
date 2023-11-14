@@ -11,10 +11,6 @@ li {
     background-color: cadetblue;
 }
 
-.new-player-form{
-  display: flexbox;
-  float: center;
-}
 
 body {
     font-family: 'Arial', sans-serif;
